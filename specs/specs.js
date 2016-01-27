@@ -1,6 +1,6 @@
 describe('pingPong', function() {
   it("will count up to the user input number, and replace multiples of 3 with 'ping', multiples of 5 with 'pong'", function() {
-    expect(pingPong(4)).to.eql([1,2,"ping",4]);
+    expect(pingPong(5)).to.eql([1,2,"ping",4,"pong"]);
   });
 });
 
